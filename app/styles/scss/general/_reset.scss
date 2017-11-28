@@ -552,7 +552,10 @@ main{
 }
 .grid1_of_3 h3{
     border-top: 1px solid #EBEBEB;
-    padding: 25px 12px;
+    padding-left:20%;
+    padding-top:7%;
+    padding-bottom:10%;
+
     font-size: 1.2em;
     color: #000000;
     text-shadow: 0 1px 0 #ffffff;
@@ -874,15 +877,17 @@ main{
 }
 .all_products{
     padding:2%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    margin-right: 50%;
+    display: inline;
         select{
         font-size: 1em;
-        float: right;
         text-align: left;
+         margin-bottom: 5%;
         text-transform: capitalize;
         color: #BCB4A7;
-        border: 1px solid #BCB4A7;
-        padding: 1% 4%;
+        border: 1px solid #BCB4A7;  margin-top: 5%;
+        padding: 1% 6% 1% 2%;
         margin-right: 3%;
         background-color:rgb(235,231,223) ;
         background-image: url(../../../images/icons/2.png);
@@ -890,7 +895,38 @@ main{
         background-repeat:no-repeat;
         appearance:none;
     }
-    h2{
+    .list{
+        width:22px;
+        height:21px;
+        border: 1px solid #BCB4A7;  margin-top: 5%;
+        background-color:rgb(235,231,223) ;
+        background-image: url(../../../images/icons/4.png);
+        background-position:right;
+        background-repeat:no-repeat;
+        appearance:none;
+        padding-left: 4%;
+        padding-top: 2.6%;
+        margin-bottom: 5%;
+    }
+
+    .grid {
+        width:  20px;
+        height: 30px;
+        margin-bottom: 5%;
+        border: 1px solid #BCB4A7;
+        background-image: url("../../../images/icons/3.png");
+        background-color:rgb(235,231,223) ;
+        background-position:right;
+        background-repeat:no-repeat;
+        appearance:none;
+        padding-left: 4%;
+        padding-top: 2.6%;
+        margin-bottom: 5%;
+        margin-left: 45%;
+    }
+    h2{ margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 2%;
         float: left;
         text-transform: capitalize;
         color: #242424;
@@ -1213,4 +1249,5 @@ main{
     }
 
 }
+
 
