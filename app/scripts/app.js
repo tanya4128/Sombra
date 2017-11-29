@@ -824,6 +824,24 @@ References:
 		}
 	};
 })(this);
+// Two images side by side
+function three() {
+    var elements = document.getElementsByClassName("grid1_of_3");
+    var i;
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "26%";
+    }
+}
+
+// Full-width images
+function one() {
+    var elements = document.getElementsByClassName("grid1_of_3");
+    var i;
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "50%";
+    }
+}
+
 var slideIndex = 0;
 showSlides();
 
@@ -871,19 +889,6 @@ var spanClose = document.getElementsByClassName("close")[0];
 spanClose.onclick = function() {
     imagePreview.style.display = "none";
 };
-
-$(function () {
-    $(".demo1").bootstrapNews({
-        newsPerPage: 3,
-        autoplay: true,
-        pauseOnHover:true,
-        direction: 'up',
-        newsTickerInterval: 2000,
-        onToDo: function () {
-            //console.log(this);
-        }
-    });
-});
 
 function subscribeToNews() {
     var email = document.getElementById('email_news');
